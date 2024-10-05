@@ -25,6 +25,10 @@ pubkey = "963a4d3b4993f9f0e79ce002ef2f4f80df55bd5eb0c1f077a3fdccdec8200652"
 ~~~
 
 ~~~
+cd /nostr-relay-docker/rs-relay/
+~~~
+
+~~~
 sudo docker compose up -d
 ~~~
 
