@@ -1,7 +1,7 @@
 # วิธีติดตั้ง (How to install)
 
 ~~~
-git clome https://github.com/notoshi404/nostr-relay-docker.git
+git clone https://github.com/notoshi404/nostr-relay-docker.git
 ~~~
 
 แก้ไขไฟล์ config.toml
