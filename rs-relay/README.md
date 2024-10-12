@@ -4,9 +4,13 @@
 git clone https://github.com/notoshi404/nostr-relay-docker.git
 ~~~
 
+~~~
+cd nostr-relay-docker/rs-relay/
+~~~
+
 แก้ไขไฟล์ config.toml
 ~~~
-sudo nano /nostr-relay-docker/rs-relay/config.toml
+sudo nano config.toml
 ~~~
 
 ~~~
@@ -22,10 +26,6 @@ description = "A newly created nostr-rs-relay.\n\nCustomize this with your own i
 
 # Administrative contact pubkey
 pubkey = "963a4d3b4993f9f0e79ce002ef2f4f80df55bd5eb0c1f077a3fdccdec8200652"
-~~~
-
-~~~
-cd /nostr-relay-docker/rs-relay/
 ~~~
 
 ~~~
