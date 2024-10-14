@@ -1,0 +1,9 @@
+services:
+  strfry:
+    container_name: strfry
+    image: notoshi/strfry
+    ports:
+        - 7777:7777
+    volumes:
+        - ./strfry-db:/app/strfry-db
+        - ./strfry.conf:/etc/strfry.conf
