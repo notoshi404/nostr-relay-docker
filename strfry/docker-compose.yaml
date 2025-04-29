@@ -1,7 +1,7 @@
 services:
   strfry:
     container_name: strfry
-    image: notoshi/strfry
+    image: notoshi/strfry:1.0.4u
     ports:
         - 7777:7777
     volumes:
