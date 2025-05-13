@@ -1,10 +1,7 @@
 # วิธีติดตั้ง (How to install)
 สร้างโฟรเดอร์ RS-Relay
 ```sh
-mkdir re-relay 
-```
-```sh
-cd re-relay 
+mkdir re-relay && cd re-relay 
 ```
 สร้างโฟรเดอร์เก็บข้อมูล
 ```sh
