@@ -2,19 +2,19 @@ How to install **strfry** 
 ======
 
 สร้างโฟรเดอร์ strfry
-```
+```sh
 mkdir strfry && cd strfry
 ```
-```
+```sh
 mkdir strfry-db
 ```
 ดาวน์โหลดไฟล์ strfry.conf
-```
+```sh
 wget -O strfry.conf https://raw.githubusercontent.com/notoshi404/nostr-relay-docker/refs/heads/main/strfry/strfry.conf
 ```
 
 แก้ไขไฟล์ strfry.conf
-```
+```sh
 sudo nano strfry.conf
 ```
 ```
@@ -55,11 +55,11 @@ relay {
 .
 .
 ```
-```
+```sh
 docker pull notoshi/strfry:1.0.4u
 ```
 ดาวน์โหลดไฟล์ docker-compose.yaml
-```
+```sh
 wget -O docker-compose.yaml https://raw.githubusercontent.com/notoshi404/nostr-relay-docker/refs/heads/main/strfry/docker-compose.yaml
 ```
 ### docker-compose.yaml
@@ -74,8 +74,9 @@ services:
         - ./strfry-db:/app/strfry-db
         - ./strfry.conf:/etc/strfry.conf
 ```
-```
+```sh
 docker compose up -d
 ```
 ## [strfry](https://github.com/hoytech/strfry)
 > Version 1.0.4
+.
