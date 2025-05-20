@@ -74,9 +74,9 @@ services:
         - ./strfry-db:/app/strfry-db
         - ./strfry.conf:/etc/strfry.conf
 ```
+run container
 ```sh
 docker compose up -d
 ```
 ## [strfry](https://github.com/hoytech/strfry)
 > Version 1.0.4
-.

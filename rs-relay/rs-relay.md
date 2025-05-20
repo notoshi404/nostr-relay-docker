@@ -35,6 +35,7 @@ pubkey = "963a4d3b4993f9f0e79ce002ef2f4f80df55bd5eb0c1f077a3fdccdec8200652"
 ```sh
 wget -O docker-compose.yaml https://raw.githubusercontent.com/notoshi404/nostr-relay-docker/refs/heads/main/rs-relay/docker-compose.yml
 ```
+Run container
 ```sh
 docker compose up -d
 ```
