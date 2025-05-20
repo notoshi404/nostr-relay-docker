@@ -1,5 +1,15 @@
-How to install **bostr2** 
+Bostr — Nostr Relay Aggregator Proxy
 ======
+
+```
+[ Client (e.g. Amethyst, Damus) ]
+         ↓
+    [ Bostr Proxy ]
+         ↓
+[ Relay A ] [ Relay B ] [ Relay C ]
+```
+
+## How to install **bostr2** 
 
 สร้างโฟรเดอร์ bostr2
 ```sh
